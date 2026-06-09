@@ -1,2 +1,4 @@
-# Ciencia_de_Dados_EFG
+# Curso Técnico em Ciencia de Dados EFG
 Primeiro repositório do curso Técnico em Ciência de Dados EFG
+
+Repositório criado durando uma aula do Gustavo Guanabara, para atividades do curso. 
