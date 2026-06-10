@@ -66,3 +66,45 @@
 # segundos = int(input(' Digite a quantidade de segundos'))
 # total = (dia * 86400) + (horas * 3600) + (minutos * 60) + segundos
 # print('O total de segundos é:', total)
+
+#Exercício 3.10 Faça um programa que calcule o aumento de um salário. Ele deve solicitar o valor do salário e a porcentagem do aumento. Exiba o valor do aumento e do novo salário.
+salario = int(input('Digite seu salário'))
+percentual = float(input('Digite o percentual de aumento do seu salário'))
+valorAumento = salario * (percentual / 100 )
+print('Meu salário tera aumento de', valorAumento )
+print('Meu novo salário é', salario + valorAumento ,)
+
+#Exercício 3.11 Faça um programa que solicite o preço de uma mercadoria e o percentual de desconto. Exiba o valor do desconto e o preço a pagar.
+preco = float(input('Digite o preço da mercadoria'))
+desconto = float(input('Digite o percentual de desconto'))
+valorDesconto = preco * (desconto / 100)
+print('O Desconto será de', valorDesconto)
+precoFinal = preco - valorDesconto
+print('Vou pagar o total de', precoFinal, 'na mercadoria')
+
+#Exercício 3.12 Escreva um programa que calcule o tempo de uma viagem de carro. Pergunte a distância a percorrer e a velocidade média esperada para a viagem.
+distancia = float(input('Digite quantos quilômetros você vai percorrer na viajem'))
+velocidade = int(input('Digite a velocidade média que você vai manter na viajem'))
+tempo = distancia / velocidade
+print('O tempo total da viajem será', tempo, 'horas')
+
+# exercicio 3.13 Escreva um programa que converta uma temperatura digitada em °C em °F. A fórmula para essa conversão é: F = 9 × C / 5 + 32
+c = float(input('Digite a temperatura em Cº'))
+f = (9 * c) / 5 + 32
+print('A temperatura em fahrenheit é', f,'Fº' )
+
+#Exercício 3.14 Escreva um programa que pergunte a quantidade de km percorridos por um carro alugado pelo usuário, assim como a quantidade de dias pelos quais o carro foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$ 60 por dia e R$ 0,15 por km rodado.
+distancia = int(input('Digite a quantidade de km percorrido'))
+tempo = int(input('Digite quantos dias ficou com carro alugado'))
+valorTotal = (tempo * 60) + (distancia * 0.15)
+print('O valor total do aluguel é de R$', valorTotal, )
+
+# Exercício 3.15 Escreva um programa para calcular a redução do tempo de vida de um fumante. Pergunte a quantidade de cigarros fumados por dia e quantos anos ele já fumou. Considere que um fumante perde 10 minutos de vida a cada cigarro, e calcule quantos dias de vida um fumante perderá. Exiba o total em dias.
+quantidade = int(input('Quantos cigarros você fuma por dia?'))
+tempo = int(input('Há quantos anos você fuma?'))
+totalDia = tempo * 365
+print(totalDia, 'dias')
+totalCigarros = quantidade * totalDia
+print('Você já fumou um total de', totalCigarros, 'cigarros')
+tempoMenosVida = totalCigarros * 10
+print('A cada cigarro você perde 10 minutos, você já perdeu', tempoMenosVida, 'minutos de vida que equivale a', tempoMenosVida / 1440, 'dias')
