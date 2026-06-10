@@ -35,3 +35,33 @@
 # aumento = 20
 # salario_final = salario + (salario * aumento/100)
 # print (f"Você recebeu um salario de {salario} e teve um ajuste de {aumento}% o salário final é {salario_final}")
+
+#  PrograMa 2.2 - Cálculo de auMento de salário
+# salario = 1500
+# aumento = 1500 * 5 / 100
+# print(salario + (aumento))
+
+# #Exercício 2.3 Faça um programa que exiba seu nome na tela.
+# print('Wildson Felipe')
+
+# #Exercício 2.4 Escreva um programa que exiba o resultado de 2a x 3b, em que
+# #a vale 3 e b vale 5.
+# a = 3
+# b = 5
+# print((2 * a) * (3 * b))
+
+# #Exercício 2.5 Escreva um programa que calcule a soma de três variáveis e imprima o resultado na tela. 
+# a = 5
+# b = 10
+# c = 20
+# print(a + b + c)
+
+# #Exercício 2.6 Modifique o Programa 2.2, de forma que ele calcule um aumento de 15% para um salário de R$ 750. 
+# salario = 750
+# aumento = 750 * 15 / 100
+# print(salario + (aumento))
+
+# salario = 1612
+# aumento = 20
+# salario_final = salario + (salario * aumento/100)
+# print (f"Você recebeu um salario de {salario} e teve um ajuste de {aumento}% o salário final é R${salario_final}")
